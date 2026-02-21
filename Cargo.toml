@@ -1,0 +1,12 @@
+[package]
+name = "r_wp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+raw-window-handle = "0.6.2"
+windows = { version = "0.62.2", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_Graphics_Gdi"] }
+windows-core = "0.62.2"
+winit = { version = "0.29", features = ["rwh_06"] }
+wry = "0.54.2"
+http = "1"
